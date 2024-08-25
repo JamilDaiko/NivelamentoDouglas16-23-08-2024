@@ -16,7 +16,7 @@ public class caculoDeReajuste {
         } else if(salario <= 5000){
             salario = salario*0.05 + salario;
         }else{
-             salario = salario
+             salario = salario;
         }
 
         System.out.println("Novo salario: R$"+ salario);
